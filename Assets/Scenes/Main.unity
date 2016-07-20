@@ -400,6 +400,17 @@ MeshCollider:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
   m_PrefabInternal: {fileID: 869471033}
+--- !u!114 &869471038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 869471034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1391ad2d0df9141b79befa9297c4b727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1608451410
 GameObject:
   m_ObjectHideFlags: 0
