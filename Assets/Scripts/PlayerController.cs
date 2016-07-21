@@ -7,6 +7,11 @@ public class Boundary {
 }
 
 public class PlayerController : MonoBehaviour {
+	public float fireRate = 0.5f;
+	public GameObject shot;
+	public Transform shotSpwan;
+	private float nextFire = 0.0f;
+
 	public float speed = 5.0f;
 	public float tilt = 4.0f;
 	public Boundary boundary;
@@ -18,6 +23,10 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if(Input.GetButton("Fire1") && Time.time > nextFire) {
+			nextFire = Time.time+fireRate;
+			Instantiate(shot, shotSpwan.position, shotSpwan.rotation);
+		}
 	
 	}
 
