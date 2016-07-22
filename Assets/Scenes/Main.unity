@@ -331,6 +331,7 @@ GameObject:
   - 136: {fileID: 753996847}
   - 114: {fileID: 753996848}
   - 114: {fileID: 753996849}
+  - 114: {fileID: 753996850}
   m_Layer: 0
   m_Name: Aseroid
   m_TagString: Untagged
@@ -403,6 +404,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801e25b9cdcac414389a6d84bacb8b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
+  playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
+--- !u!114 &753996850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 753996844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbdebd49d6a947dcacbdd0435ec0d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: -4
 --- !u!1001 &869471033
 Prefab:
   m_ObjectHideFlags: 0
@@ -444,6 +459,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []

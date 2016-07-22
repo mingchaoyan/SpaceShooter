@@ -9,8 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 447890}
   - 54: {fileID: 5454244}
-  - 114: {fileID: 11433532}
   - 136: {fileID: 13698374}
+  - 114: {fileID: 11452322}
+  - 114: {fileID: 11453336}
   m_Layer: 0
   m_Name: Bolt
   m_TagString: Untagged
@@ -110,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &11433532
+--- !u!114 &11452322
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -118,10 +119,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 151188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daccf24d8af3a4e36909ff9079080907, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fbdebd49d6a947dcacbdd0435ec0d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 40
+--- !u!114 &11453336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbdebd49d6a947dcacbdd0435ec0d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
 --- !u!136 &13698374
 CapsuleCollider:
   m_ObjectHideFlags: 1
