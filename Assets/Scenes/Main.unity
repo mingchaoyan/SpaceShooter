@@ -175,10 +175,10 @@ MonoBehaviour:
   startWait: 1
   spawnWait: 1
   waveWait: 2
-  scoreText: {fileID: 0}
-  gameOverText: {fileID: 0}
+  scoreText: {fileID: 1761418814}
+  gameOverText: {fileID: 1838946596}
   gameOver: 0
-  restartText: {fileID: 0}
+  restartText: {fileID: 1032640499}
   restart: 0
 --- !u!82 &172229599
 AudioSource:
@@ -626,6 +626,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!132 &1032640499 stripped
+GUIText:
+  m_PrefabParentObject: {fileID: 13255874, guid: a20261e4702b844969d53feaf8aeeff7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190619969}
 --- !u!1001 &1190619969
 Prefab:
   m_ObjectHideFlags: 0
@@ -664,6 +669,18 @@ Prefab:
     - target: {fileID: 437500, guid: a20261e4702b844969d53feaf8aeeff7, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 13244204, guid: a20261e4702b844969d53feaf8aeeff7, type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 13255874, guid: a20261e4702b844969d53feaf8aeeff7, type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 13237272, guid: a20261e4702b844969d53feaf8aeeff7, type: 2}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a20261e4702b844969d53feaf8aeeff7, type: 2}
@@ -791,6 +808,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!132 &1761418814 stripped
+GUIText:
+  m_PrefabParentObject: {fileID: 13244204, guid: a20261e4702b844969d53feaf8aeeff7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190619969}
+--- !u!132 &1838946596 stripped
+GUIText:
+  m_PrefabParentObject: {fileID: 13237272, guid: a20261e4702b844969d53feaf8aeeff7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190619969}
 --- !u!1 &1892779213
 GameObject:
   m_ObjectHideFlags: 0
