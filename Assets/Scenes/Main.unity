@@ -170,6 +170,10 @@ MonoBehaviour:
   hazard: {fileID: 102574, guid: 3532ec079d527417cbe91398333274b2, type: 2}
   spawnValues: {x: 6, y: 0, z: 16}
   spawnPosition: {x: 0, y: 0, z: 0}
+  hazardCount: 5
+  startWait: 1
+  spawnWait: 1
+  waveWait: 2
 --- !u!1 &569606431
 GameObject:
   m_ObjectHideFlags: 0
