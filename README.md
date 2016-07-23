@@ -13,8 +13,7 @@ Space Shooter
 
 游戏展示
 --------
-- - 游戏界面：
-- ![image](GameShots/playing.png)
-- - 结束界面：
-- ![image](GameShots/end.png)
--
+ - 游戏界面：
+ ![image](GameShots/playing.png)
+ - 结束界面：
+ ![image](GameShots/end.png)
